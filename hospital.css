@@ -1,0 +1,65 @@
+/* Hospital */
+
+.Hospital-List-Heading{
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(6, 6, 10);
+}
+.Hospital-List-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 30px 0px 30px;
+  
+}
+.Hospital-List-container img{
+    display: block;
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    
+}
+.Hospital-1{
+    display: flex;
+background-color: white;
+
+}
+.Hospital-List-Heading{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+.Hospital-image img{
+display: block;
+height: 250px;
+width: 300px;
+border-color: transparent;
+border-style: solid;
+object-fit: cover;
+object-position: left;
+}
+
+.Hospital-title{
+    font-size: 2.2rem;
+    font-weight: 200;
+    color: rgb(12, 1, 1);
+    text-align:center;
+}
+.Hospital-description p{
+    margin: auto 1.4rem;
+    color: rgb(7, 7, 69);
+    text-align: center;
+}
+.Hospital-1{
+    display: flex;
+    flex: 1 1 500px;
+   justify-content: space-evenly; 
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.Hospital-1:hover{
+background-color: rgb(168, 168, 175);
+}
+
